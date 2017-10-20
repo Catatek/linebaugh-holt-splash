@@ -1,10 +1,31 @@
 <template>
 <div class="people">
   <div class="itemContainer">
-    <img src="" alt="">
-    <span>Justin Linn</span>
-    <img src="" alt="">
-    <span></span>
+    <img src="../assets/kisha.jpg" alt="Kisha photo">
+    <span>Kisha Linebaugh</span>
+    <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
+    <span>(813) 362-1218</span>
+  </div>
+
+  <div class="itemContainer">
+    <img src="../assets/christy.jpg" alt="Kisha photo">
+    <span>Cristy Holt</span>
+    <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
+    <span>(813) 505-6210</span>
+  </div>
+
+  <div class="itemContainer">
+    <img src="../assets/kaitlin.jpg" alt="Kisha photo">
+    <span>Kaitlin Brennan</span>
+    <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
+    <span>(727) 269-1236</span>
+  </div>
+
+  <div class="itemContainer">
+    <img src="../assets/natalie.jpg" alt="Kisha photo">
+    <span>Natalie Fenderson</span>
+    <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
+    <span>(813) 242-7335</span>
   </div>
 </div>
 </template>
@@ -14,7 +35,7 @@ export default {
   name: 'People',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+
     }
   }
 }
@@ -22,5 +43,33 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.people {}
+
+.people {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 2em;
+}
+.itemContainer {
+  display: flex;
+  margin: 0 2em;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.itemContainer > img {
+  width: 7em;
+  height: 7em;
+}
+
+.itemContainer > span {
+ margin: .7em 0;
+}
+
+#lineCircle {
+  height: 1em;
+  width: 6em;
+}
+
 </style>

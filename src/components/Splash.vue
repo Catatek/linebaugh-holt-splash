@@ -12,7 +12,7 @@ export default {
   name: 'Splash',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Unlocking Tampa Bay'
     };
   }
 };
