@@ -12,9 +12,9 @@ export default {
   name: 'Splash',
   data() {
     return {
-      msg: 'Unlocking Tampa Bay'
+      msg: 'Unlocking Tampa Bay',
     };
-  }
+  },
 };
 </script>
 
@@ -39,6 +39,7 @@ h1,
 h2 {
   font-weight: normal;
   font-family: 'Inkferno', sans-serif;
+  margin: 1.5em 0 2em 0;
 }
 
 ul {

@@ -34,11 +34,9 @@
 export default {
   name: 'People',
   data() {
-    return {
-
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -52,15 +50,15 @@ export default {
 }
 .itemContainer {
   display: flex;
-  margin: 0 2em;
+  margin: 0 3em;
   flex-direction: column;
   align-content: center;
   align-items: center;
 }
 
 .itemContainer > img {
-  width: 7em;
-  height: 7em;
+  width: 8.5em;
+  height: 8.5em;
 }
 
 .itemContainer > span {
