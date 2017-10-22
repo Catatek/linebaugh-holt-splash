@@ -2,6 +2,7 @@
   "name": "y",
   "version": "1.0.0",
   "description": "linebaugh and holt splash page",
+  "homepage": "https://catatek.github.io/linebaugh-holt-splash/",
   "author": "Justin Linn and William Whatley",
   "private": true,
   "scripts": {
@@ -53,9 +54,5 @@
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
