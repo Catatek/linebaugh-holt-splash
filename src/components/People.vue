@@ -46,11 +46,13 @@ export default {
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 60vh;
   padding: 0 2em;
 }
 .itemContainer {
   display: flex;
-  margin: 0 3em;
+  padding-top: 3em;
+  margin: 0 3.5em;
   flex-direction: column;
   align-content: center;
   align-items: center;
