@@ -1,6 +1,9 @@
 <template>
 <div class="Footer">
+  <div class="baytobay">
   <img class="REMAX" src="../assets/remax.png" alt="Remax Logo">
+  <span>Bay to Bay</span>
+  </div>
   <div class="contactDetails">
     <span>(813) 259-0000</span>
     <span>1001 S Maddill Avenue</span>
@@ -40,7 +43,18 @@ export default {
   font-weight: bold;
 }
 
-.Footer > .REMAX {
+.baytobay {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.baytobay > span {
+  margin-top: .5em;
+  /*color: #9e2a2a;*/
+}
+
+.baytobay > .REMAX {
 width: 210px;
 }
 
