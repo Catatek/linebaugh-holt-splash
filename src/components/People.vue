@@ -64,7 +64,7 @@ export default {
 }
 
 #lineCircle {
-  height: 1em;
+  height: .8em;
   width: 6em;
 }
 
