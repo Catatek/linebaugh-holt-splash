@@ -31,7 +31,7 @@ export default {
   name: 'People',
   data() {
     return {};
-  },
+  }
 };
 </script>
 
@@ -47,7 +47,7 @@ export default {
 .itemContainer {
   display: flex;
   padding-top: 3em;
-  margin: 0 3.5em;
+  margin: 2em 3.5em;
   flex-direction: column;
   align-content: center;
   align-items: center;
