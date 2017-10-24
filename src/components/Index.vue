@@ -2,23 +2,26 @@
 <div class="Index">
   <Splash></Splash>
   <People></People>
+  <Footer></Footer>
 </div>
 </template>
 
 <script>
-import Splash from '@/components/Splash'
-import People from '@/components/People'
+import Splash from '@/components/Splash';
+import People from '@/components/People';
+import Footer from '@/components/Footer';
 
 export default {
   name: 'Index',
   data() {
-    return {}
+    return {};
   },
   components: {
     Splash,
-    People
+    People,
+    Footer,
   },
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

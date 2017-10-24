@@ -2,30 +2,26 @@
 <div class="people">
   <div class="itemContainer">
     <img src="../assets/kisha.jpg" alt="Kisha photo">
-    <span>Kisha Linebaugh</span>
     <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
-    <span>(813) 362-1218</span>
+    <span>Kisha Linebaugh</span>
   </div>
 
   <div class="itemContainer">
     <img src="../assets/christy.jpg" alt="Kisha photo">
-    <span>Cristy Holt</span>
     <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
-    <span>(813) 505-6210</span>
+    <span>Cristy Holt</span>
   </div>
 
   <div class="itemContainer">
     <img src="../assets/kaitlin.jpg" alt="Kisha photo">
-    <span>Kaitlin Brennan</span>
     <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
-    <span>(727) 269-1236</span>
+    <span>Kaitlin Brennan</span>
   </div>
 
   <div class="itemContainer">
     <img src="../assets/natalie.jpg" alt="Kisha photo">
-    <span>Natalie Fenderson</span>
     <img id="lineCircle" src="../assets/linecircle.png" alt="line dot design">
-    <span>(813) 242-7335</span>
+    <span>Natalie Fenderson</span>
   </div>
 </div>
 </template>
@@ -34,11 +30,9 @@
 export default {
   name: 'People',
   data() {
-    return {
-
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -48,19 +42,21 @@ export default {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 0 2em;
+  height: 60vh;
 }
 .itemContainer {
   display: flex;
-  margin: 0 2em;
+  padding-top: 3em;
+  margin: 0 3.5em;
   flex-direction: column;
   align-content: center;
   align-items: center;
 }
 
 .itemContainer > img {
-  width: 7em;
-  height: 7em;
+  margin-top: 1em;
+  width: 8.5em;
+  height: 8.5em;
 }
 
 .itemContainer > span {
@@ -68,7 +64,7 @@ export default {
 }
 
 #lineCircle {
-  height: 1em;
+  height: .8em;
   width: 6em;
 }
 
