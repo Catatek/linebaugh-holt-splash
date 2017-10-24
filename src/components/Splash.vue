@@ -26,6 +26,8 @@ export default {
   src: url('../assets/fonts/INKFERNO.otf');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .hello {
   margin: 0;
 }
@@ -38,7 +40,7 @@ img {
 h1,
 h2 {
   font-weight: normal;
-  font-family: 'Inkferno', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 ul {
