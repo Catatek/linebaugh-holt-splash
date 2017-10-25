@@ -43,7 +43,10 @@ export default {
   justify-content: center;
   width: 100%;
   height: 60vh;
+  /*padding: 3em 0;*/
 }
+
+
 .itemContainer {
   display: flex;
   padding-top: 3em;
