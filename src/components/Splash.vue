@@ -1,9 +1,10 @@
 <template>
   <div class="hello">
     <div class="header">
+      <img class="mobileLlt" src="../assets/lltlogo1.png">
       <h1>Community minded real estate</h1>
       <hr>
-      <h3>Our site is currently under construction. Please find out contact information below</h3>
+      <h3>Our site is currently under construction. Please find our contact information below</h3>
     </div>
     <div class="unlock">
       <h1>{{ msg }}</h1>
@@ -34,6 +35,10 @@ export default {
 
 .hello {
   margin: 0;
+}
+
+.mobileLlt {
+  display: none;
 }
 
 .header {
@@ -96,6 +101,21 @@ a {
 }
 
 @media (max-width: 480px) {
+  .header {
+    background-position: center;
+  }
+
+  .mobileLlt {
+    display: block;
+    position: absolute;
+    left: 2em;
+    top: 1.5em;
+    width: 30%;
+    height: 30%;
+
+  }
+
+
   .header h1 {
     font-size: 3em;
     top: 8em;
@@ -105,6 +125,7 @@ a {
     width: 20em;
     top: 29.5em;
     right: 2.2em;
+    border: .5px solid #ffffff;
   }
 
   .header h3 {
