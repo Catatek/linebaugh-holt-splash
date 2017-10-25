@@ -125,7 +125,7 @@ a {
     width: 20em;
     top: 29.5em;
     right: 2.2em;
-    border: .5px solid #ffffff;
+    border: .8px solid #ffffff;
   }
 
   .header h3 {
