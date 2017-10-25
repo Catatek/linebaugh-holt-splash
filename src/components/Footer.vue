@@ -77,4 +77,33 @@ width: 150px;
   flex-direction: column;
 }
 
+@media (max-width: 480px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    padding: 2em 0;
+    margin-top: 3em;
+    height: 100%;
+  }
+
+  .baytobay {
+    padding: 2.5em 0;
+    padding-left: 1.8em;
+    align-items: flex-start;
+  }
+
+  .LLT  {
+    padding-top: 2.5em;
+    align-items: flex-start;
+  }
+
+  .contactDetails span {
+    font-size: .9em;
+    align-items: flex-start;
+  }
+
+}
+
 </style>

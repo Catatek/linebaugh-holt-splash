@@ -74,4 +74,22 @@ export default {
   width: 6em;
 }
 
+@media (max-width: 500px) {
+
+  .people {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+  }
+
+  .itemContainer {
+    margin: .2em 0;
+  }
+
+}
+
+
+
 </style>

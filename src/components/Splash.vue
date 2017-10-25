@@ -95,6 +95,26 @@ a {
   color: #42b983;
 }
 
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 3em;
+    top: 8em;
+  }
+
+  .header hr {
+    width: 20em;
+    top: 29.5em;
+    right: 2.2em;
+  }
+
+  .header h3 {
+    font-size: 1em;
+    top: 30em;
+    right: .5em;
+    line-height: 1.5em;
+  }
+}
+
 
 
 
