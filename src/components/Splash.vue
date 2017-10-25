@@ -110,8 +110,8 @@ a {
     position: absolute;
     left: 2em;
     top: 1.5em;
-    width: 30%;
-    height: 30%;
+    width: 160px;
+    height: 200px;
 
   }
 
