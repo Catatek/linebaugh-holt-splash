@@ -1,7 +1,11 @@
 <template>
   <div class="hello">
     <div class="header">
-      <img src="../assets/skyline.png" alt="Living Loving Tampa Splash">
+      <h1>Community minded real estate</h1>
+      <hr>
+      <h3>Our site is currently under construction. Please find out contact information below</h3>
+    </div>
+    <div class="unlock">
       <h1>{{ msg }}</h1>
     </div>
   </div>
@@ -22,8 +26,8 @@ export default {
 <style scoped>
 
 @font-face {
-  font-family: "Inkferno";
-  src: url('../assets/fonts/INKFERNO.otf');
+  font-family: "Jenna";
+  src: url('../assets/fonts/JennaSue.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -32,15 +36,49 @@ export default {
   margin: 0;
 }
 
+.header {
+  background-image: url('../assets/skyline.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 105vh;
+}
+
+.header hr {
+  position: absolute;
+  top: 36.8em;
+  right: 3em;
+  color: #ffffff;
+  width: 35em;
+  border: 1.5px solid #ffffff;
+}
+.header h3 {
+  position: absolute;
+  top: 34em;
+  right: 2.7em;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+}
+
 img {
   width: 100%;
   height: 100%;
 }
 
-h1,
-h2 {
-  font-weight: normal;
-  font-family: 'Montserrat', sans-serif;
+.header h1 {
+  position: absolute;
+  right: .6em;
+  top: 5.5em;
+  color: #ffffff;
+  font-family: 'Jenna', sans-serif;
+  font-size: 5em;
+}
+
+
+.unlock h1 {
+  color: #00B2AA;
+  padding-top: 2em;
+  font-size: 2.2em;
 }
 
 ul {

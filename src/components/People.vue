@@ -64,6 +64,9 @@ export default {
 
 .itemContainer > span {
  margin: .7em 0;
+ color: #9D2B2B;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.3em;
 }
 
 #lineCircle {
