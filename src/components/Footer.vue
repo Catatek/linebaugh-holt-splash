@@ -24,13 +24,16 @@ export default {
   },
   components: {
     Splash,
-    People,
-  },
+    People
+  }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .Footer {
   display: flex;
   align-items: center;
@@ -51,7 +54,14 @@ export default {
 
 .baytobay > span {
   margin-top: .5em;
-  /*color: #9e2a2a;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+}
+
+.contactDetails span {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding: .15em 0;
 }
 
 .baytobay > .REMAX {
@@ -65,6 +75,35 @@ width: 150px;
 .Footer > .contactDetails {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    padding: 2em 0;
+    margin-top: 3em;
+    height: 100%;
+  }
+
+  .baytobay {
+    padding: 2.5em 0;
+    padding-left: 1.8em;
+    align-items: flex-start;
+  }
+
+  .LLT  {
+    padding-top: 2.5em;
+    align-items: flex-start;
+  }
+
+  .contactDetails span {
+    font-size: .9em;
+    align-items: flex-start;
+  }
+
 }
 
 </style>
