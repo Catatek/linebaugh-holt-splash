@@ -42,7 +42,7 @@ export default {
 }
 
 .header {
-  background-image: url('../assets/skyline.png');
+  background-image: url('../assets/skyline.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 105vh;
@@ -118,7 +118,7 @@ a {
 
   .header h1 {
     font-size: 3em;
-    top: 8em;
+    top: 6.8em;
   }
 
   .header hr {
